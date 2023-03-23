@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Filmon's Art Works</title>
+    <meta name="robots" content="noindex,nofollow" >
+    <meta name="viewport" content="width=device-width" >
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="css/portal.css" >
+    <link rel="stylesheet" href="css/nav.css" >
+    <link rel="stylesheet" href="css/stylegallary.css" >
+  </head>
+  <body>
+    <header>
+      <h1>FILIMON ADELEHEY</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="template-contact.php">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+    <div class="wrapper">
+      <img
+        class="desktop"
+        src="images/filmonimage.jpeg"
+        alt="Photo of Filimon"
+      >
+      <img
+        class="tablet"
+        src="images/fili.jpeg"
+        alt="Photo of Filimon"
+      >
+      <img
+        class="phone"
+        src="images/gallary.jpeg"
+        alt="Photo of Filimon's gallery"
+      >
+
+      <h2 class="subheader">Biography!</h2>
+      <p> Filmon Adelehey was born and raised in Asmara, the capitol city of Eritrea. His father drove
+        a delivery truck and his mother took care of their apartment, him, and
+        his four brothers and sisters. As a child of six or seven, he developed
+        an interest in drawing and using burnt bits of wood, would draw on walls
+        of his neighborhood’s buildings. Within a short time, he discovered
+        color and was able to use colored pencils and crayons to create
+        portraits on these same walls.
+      </p>
+
+      <p>
+        At the age of fourteen, outside of his academic classes, he enrolled in
+        an art school in Asmara. The class was comprised of local university art
+        students, whereas Adelehey was the equivalent of a freshman in an
+        American high school. Upon completion of the school’s courses, he
+        graduated within a year. For the next ten years he dedicated himself to
+        his art, hopeful of one day becoming a professional artist. Intent on
+        delving more deeply into his subject as an artist portraying the human
+        experience, he observed people – his family, neighbors, friends,
+        strangers – attentive to their faces, the emotional content of their
+        character.
+      </p>
+
+      <footer>
+       
+        <p>
+          <small
+            >&copy; 2023 by Filmon , All Rights Reserved | ,<a
+              href="disclaimer.html"
+            >
+              Disclaimer / Privacy Notice</a
+            >
+            ,<a id="html-checker" href="#">Check HTML</a> |
+            <a id="css-checker" href="#">Check CSS</a>~
+
+            <a href="https://www.instagram.com/artnfilmon/?hl=en"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </small>
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

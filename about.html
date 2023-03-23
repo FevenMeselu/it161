@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Felimons art works</title>
+    <meta name="robots" content="noindex,nofollow" >
+    <meta name="viewport" content="width=device-width" >
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="css/portal.css" >
+    <link rel="stylesheet" href="css/nav.css" >
+    <link rel="stylesheet" href="css/stylegallary.css" >
+  </head>
+  <body>
+    <header>
+      <h1>About us</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">gallery</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="template-contact.php">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+    <div class="wrapper">
+      <h2 class="subheader">About Filimon's art gallarey</h2>
+      <p>
+        Filmons art works are located in one of the finest galleries in the Northwest. The
+        gallarey is a boutique of fine art works, founded in 2013 in the center
+        of Seattle’s historic district, Pioneer Square. It’s dynamic programming
+        consists of a rotating schedule of monthly exhibitions of both emerging
+        contemporary and historic mid-century Modern. “All contemporary art is
+        built on the foundations of those who came before and reinvigorated with
+        fresh ideas of the next generation.” The gallery’s emphasis is on the
+        collector, regardless of their level of experience, and a friendly,
+        hospitable, educationally oriented presentation of the gallery’s
+        offerings. Gallery owner Frederick Holmes has over 39 years in the art
+        business, acting in a variety of professional roles, coast to coast. The
+        gallery frequently collaborates with national galleries and dealers to
+        enhance the gallery’s programming and broaden the visibility of Seattle
+        as an increasingly important and viable market for collectors
+        nationwide.
+      </p>
+      <footer>
+        <p>
+          <small> <a href="index.html">HOME</a></small>
+        </p>
+        <p>
+          <small
+            >&copy; 2023 by Filmon, All Rights Reserved
+            | <a href="disclaimer.html"> Disclaimer / Privacy Notice</a> ,<a
+              id="html-checker"
+              href="#"
+              >Check HTML</a
+            >
+            | <a id="css-checker" href="#">Check CSS</a>~
+            <a href="https://www.instagram.com/artnfilmon/?hl=en"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </small>
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

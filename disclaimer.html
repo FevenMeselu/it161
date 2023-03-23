@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Filmon's art works</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/portal.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/stylegallary.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Filmon's Art Gallery</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="gallery.html">gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="template-contact.php">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+    <div class="wrapper">
+      <h2 class="subheader"><strong> Disclaimer / Privacy Notice</strong></h2>
+      <p>
+        Filmons art works has made reasonable efforts to ensure the accuracy of the information throughout this website. However, Filmons art workshas reserves the right to make appropriate changes in information found on this website. Nothing contained in this website shall be construed as contractual rights. Felimons art works has many links to other websites. These include links to websites operated by other government agencies, nonprofit organizations and private businesses. Felimons art worksdoes not endorse any content or linked materials found on websites or web services provided by and/or developed by Felimons art works When linked to another site, you are no longer on the Felimons art works website and this Privacy Notice will not apply. When linked to another website, you are subject to the privacy policy of that new site. Felimons art works does not warrant the accuracy, reliability or timeliness of any information published by this system, nor endorses any content, viewpoints, products, or services linked from this system, and shall not be held liable for any losses caused by reliance on the accuracy, reliability or timeliness of such information. Portions of such information may be incorrect or not current. Any person or entity that relies on any information obtained from this system does so at their own risk.
+      </p>
+      <p></p>
+      <footer>
+        <p>
+          <p> <a href="index.html" >HOME</a> </p>
+          <small
+            >&copy; 2023 by Filmon <a href="template-contact.php">contact us </a>, All
+            Rights Reserved | ,<a href="disclaimer.html">
+              Disclaimer / Privacy Notice</a>
+            <a id="html-checker" href="#">Check HTML</a> |
+            <a id="css-checker" href="#">Check CSS</a>~
+            <a href="https://www.instagram.com/artnfilmon/?hl=en"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          </small>
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
