@@ -1,0 +1,367 @@
+body { 
+    font-family:Arial, sans-serif;
+    font-size: 1.5rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  .skip-link {
+  position: relative;
+  left: -10000px;
+  top: auto;
+  }
+  .skip-link:focus,.skip-link:active,.skip-link:hover {
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+    button {
+      padding: 0;
+      line-height: inherit;
+      border: none;
+      font: inherit;
+      color: inherit;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    .cart-btn {
+      padding: .5rem 1rem;
+      border-radius: .5rem;
+      font-weight: bold;
+      color: #fff;
+      background-color: #81b741;
+      width: 80%;
+      margin: 1rem 10% 1.5rem;
+    }
+    .cart-btn a {
+      color: rgb(255, 255, 255);
+    }
+    .adopt-btn:hover {
+      background-color: #093c60;
+    }
+
+    nav {
+      padding: .5rem 3rem .5rem;
+      background-color: #ececec;
+      color: #093c60;
+      font-size: 2rem;
+      font-weight: bold;
+      word-spacing: .5rem;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: rgb(141, 40, 40);
+    }
+
+    article {
+      padding: 3rem ;
+
+    }
+    .articles {
+      font-size: 2rem;
+      font-weight: lighter;
+      line-height: 3rem;
+      color: rgb(49, 42, 42);
+    }
+    article img {
+      width: 500px;
+      height: 451px;
+
+      background: green;
+      display: block;
+    }
+    .img2 {
+      width: 500px;
+      height: 400px;
+      background: red;
+      display: block;
+    }
+    .img3 {
+      width:100%;
+      height:auto;
+      background: linear-gradient(to bottom, #093c60, #000);
+      display: block;
+    }
+    h1 {
+      font-family: 'Noto Serif', serif;
+      font-weight: bolder;
+      color: black;
+      font-size: 4rem;
+    }
+    h2 {
+      font-family: 'Noto Serif', serif;
+      color: black;
+      font-size: 3rem;
+    }
+
+
+    .main-container {
+      display: flex;
+      flex-flow: row wrap;
+      position: relative;
+      width: 100%;
+      margin: 0rem 0rem 5rem;
+    }
+    .catalogue-container {
+      display: flex;
+      flex-flow: row wrap;
+      position: relative;
+      width: 100%;
+    }
+    .my-container{
+      width: 100%;
+      margin: 1rem 0rem 1rem;
+      box-sizing: border-box ;
+      border: 1px solid #c5c7c2;
+    }
+
+    .my-container-border {
+      border: 3px solid #c5c7c2;
+      box-shadow: 3px 3px 6px #999;
+    }
+    .my-container img {
+      width: 100%;
+      height: auto;
+      background:linear-gradient(red,rgb(9, 60, 96),white);
+      background-size: cover;
+      display: block;
+      margin: 0 0 1rem 0;
+    }
+
+
+    .my-container h2 {
+      padding: 0rem 2rem 0rem;
+    }
+    .my-container p {
+      padding: 0rem 2rem 0rem;
+    }
+
+    .large-btn {
+      text-align: center;
+      width: 70%;
+      margin: 2% 15% 0;
+      background-color: #81b741;
+      color: #093c60;
+      font-size: 2rem;
+      font-weight: bolder;
+      border-radius: .5rem;
+      padding: .5rem .5rem .75rem .5rem;
+    }
+
+    .large-btn a {
+      text-decoration: none;
+      color: #093c60;
+      font-size: 35px;
+    }
+
+
+    footer {
+      background-color: darkgray;
+      padding: 3rem;
+      color:black;
+      text-align: center;
+    }
+
+    footer a {
+      font-weight: bold;
+      color:black;
+      text-decoration: none;
+    }
+    footer img {
+      width: 70%;
+      margin: 0 15% 0;
+    }
+
+    label {
+      font-family: 'Noto Serif', serif;
+      font-size: 2rem;
+      color: #093c60;
+    }
+    legend {
+      font-family: 'Noto Serif', serif;
+      font-size: 2rem;
+      color: #093c60;
+    }
+
+    select {
+        min-width: 30rem;
+        display: block;
+        margin: 1rem 0rem 1rem;
+        font-family: Arial, sans-serif;
+        font-size: 2rem;
+        color: rgb(141, 102, 102);
+    }
+
+
+
+  /* PHONE */
+  @media screen and (min-width: 992px){
+    * {
+        font-size: 1rem;
+      }
+    header {
+        padding: 0rem 6rem 4rem;
+      }
+    .logo-img {
+        width: 100%;
+      }
+
+
+
+    .articles {
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+      }
+      article img {
+        width: 30%;
+        display: inline;
+        float: left;
+        margin:  2% 2% 1% 0;
+      }
+    h1 {
+        font-size: 1.5rem;
+      }
+    h2 {
+        font-size: 1.5rem;
+      }
+
+
+    .main-container {
+      clear: none;
+      justify-content: space-between;
+      width: 65%;
+    }
+    .my-container {
+        width: 45%;
+        margin: 2rem 5%  0rem  0rem;
+    }
+    .my-container img {
+      margin: 0 0 1rem 0;
+    }
+    .my-container h2 {
+      padding: 0rem 1rem 0rem;
+    }
+    .my-container p {
+      padding: 0rem 1rem 0rem;
+    }
+    footer {
+      padding: 3rem 20% 3rem;
+      line-height: 2rem;
+    }
+    footer img {
+      width: 60%;
+      margin: 0 20% 0;
+    }
+
+    .large-btn {
+      width: 30%;
+      margin: 4rem 35% 2rem;
+    }
+    .large-btn a {
+      font-size: 1.25rem;
+    }
+
+
+    label {
+      font-size: 1rem;
+    }
+
+    legend {
+      font-size: 1rem;
+    }
+
+    select {
+        font-size: 1rem;
+    }
+
+    .radio input {
+      top: 2rem;
+      margin-left: 15px;
+    }
+    }
+
+    @media screen and (min-width: 1200px) {
+    * {
+        font-size: 1rem;
+      }
+    header {
+        padding: 0rem 6rem 4rem;
+      }
+
+    nav {
+        padding: 1rem 6rem 1rem;
+      }
+    nav p {
+        font-size: 1.5rem;
+    }
+    nav p a {
+        font-size: 1.5rem;
+    }
+    article {
+        padding: 3rem 6rem 3rem;
+      }
+    .articles {
+        font-size: 1.5rem;
+        line-height: 2rem;
+
+      }
+    article img {
+        width: 30%;
+        display: inline;
+        float: left;
+        margin:  0 2% 0 0;
+      }
+    h1 {
+        font-size: 2.5rem;
+      }
+    h2 {
+        font-size: 1.5rem;
+      }
+
+
+      .main-container {
+        width: 75%;
+        flex-flow: row wrap;
+        clear: none;
+      }
+    .my-container{
+        width: 30%;
+        margin: 2rem 1% 0rem 1%;
+    }
+    .my-container img {
+      margin: 0 0 1rem 0;
+    }
+    .my-container h2 {
+      padding: 0rem 1rem 0rem;
+    }
+    .my-container p {
+      padding: 0rem 1rem 0rem;
+    }
+
+    footer {
+      padding: 3rem 35% 3rem;
+      line-height: 2rem;
+    }
+    footer img {
+      width: 50%;
+      margin: 0 25% 0;
+    }
+    .large-btn {
+      width: 25%;
+      margin: 4rem 37.5% 2rem;
+    }
+    .large-btn a {
+      font-size: 1.25rem;
+    }
+
+
+
+    }
